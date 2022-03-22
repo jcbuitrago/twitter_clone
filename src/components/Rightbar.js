@@ -2,7 +2,9 @@ import React from 'react';
 import "./Rightbar.css";
 import SearchIcon from "@material-ui/icons/Search";
 import News from "./News.js";
-import Lecrec from "./images/Leclerc.jpg"
+import Lecrec from "./images/Leclerc.jpg";
+import Fico from "./images/ficopetro.jpg";
+import Residente from "./images/Residente.jpg"
 
 function Rightbar() {
   const newsBar=[
@@ -12,14 +14,14 @@ function Rightbar() {
       image:Lecrec
     },
     {
-      categoria:"Sports",
-      text:"Lecrec win Bahrain GP!",
-      image:Lecrec
+      categoria:"Política",
+      text:"Adivina quien?!",
+      image:Fico
     },
     {
-      categoria:"Sports",
-      text:"Lecrec win Bahrain GP!",
-      image:Lecrec
+      categoria:"Música",
+      text:"JBalvin genera 1000 empleos para escribirle respuesta a Residente",
+      image:Residente
     }
 
   ]
