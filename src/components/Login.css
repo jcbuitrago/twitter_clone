@@ -1,0 +1,63 @@
+.login {
+    display:flex;
+}
+
+.login__image > img {
+    height: 100vh;
+    width: 120vh;
+    align-items: flex-start;
+}
+
+.login__image {
+    position: relative;
+    display: inline-block; /* <= shrinks container to image size */
+    transition: transform 150ms ease-in-out;
+}
+   
+.login__image svg {
+    height: 65vh;
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(93deg) brightness(103%) contrast(103%);
+    position: absolute;
+    top: 15vh;
+    left: 25vh;
+}
+
+.login__menu {
+    max-height: 400px;
+    display: grid;
+    position: relative;
+    top: 20vh;
+    left: 20vh;
+}
+
+.login__menu svg {
+    height: 40px;
+    filter: invert(59%) sepia(99%) saturate(650%) hue-rotate(174deg) brightness(97%) contrast(98%);
+}
+
+.login__menu input {
+    max-height: 40px;
+    border-radius: 5px;
+    border-width: 1px;
+}
+
+.login__menu button {
+    background-color: var(--twitter-color);
+    border: none;
+    color: white ;
+    font-weight: 900 ;
+    text-transform: inherit ;
+    border-radius: 30px;
+    height: 40px;
+    width: 100vh;
+    max-width: 300px;
+}
+
+.login__menu button:hover {
+    cursor: pointer;
+}
+
+.login__menuOptions {
+    display: flex;
+    justify-content: space-between;
+}
