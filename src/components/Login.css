@@ -23,8 +23,41 @@
 }
 
 .login__menu {
+    max-height: 400px;
     display: grid;
     position: relative;
-    top: 30vh;
-    left: 35vh;
+    top: 20vh;
+    left: 20vh;
+}
+
+.login__menu svg {
+    height: 40px;
+    filter: invert(59%) sepia(99%) saturate(650%) hue-rotate(174deg) brightness(97%) contrast(98%);
+}
+
+.login__menu input {
+    max-height: 40px;
+    border-radius: 5px;
+    border-width: 1px;
+}
+
+.login__menu button {
+    background-color: var(--twitter-color);
+    border: none;
+    color: white ;
+    font-weight: 900 ;
+    text-transform: inherit ;
+    border-radius: 30px;
+    height: 40px;
+    width: 100vh;
+    max-width: 300px;
+}
+
+.login__menu button:hover {
+    cursor: pointer;
+}
+
+.login__menuOptions {
+    display: flex;
+    justify-content: space-between;
 }
