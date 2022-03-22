@@ -12,7 +12,10 @@
     font-size: 30px !important;
     margin-left: 20px;
     margin-bottom: 20px;
-  }
+}
+.leftbar__twitterIcon:hover {
+    cursor: pointer;
+}
 
 .leftbar__tweet {
     background-color: var(--twitter-color);

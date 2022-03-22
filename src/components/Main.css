@@ -3,10 +3,11 @@ body {
     --twitter-background: #cdd2d6;
 }
 
-.app {
+.main {
     display: flex;
     height: 100vh;
-    max-width: 1300vh;
+    align-content: center;
+    max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
     padding: 0 10px;

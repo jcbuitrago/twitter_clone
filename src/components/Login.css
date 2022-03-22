@@ -1,0 +1,30 @@
+.login {
+    display:flex;
+}
+
+.login__image > img {
+    height: 100vh;
+    width: 120vh;
+    align-items: flex-start;
+}
+
+.login__image {
+    position: relative;
+    display: inline-block; /* <= shrinks container to image size */
+    transition: transform 150ms ease-in-out;
+}
+   
+.login__image svg {
+    height: 65vh;
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(93deg) brightness(103%) contrast(103%);
+    position: absolute;
+    top: 15vh;
+    left: 25vh;
+}
+
+.login__menu {
+    display: grid;
+    position: relative;
+    top: 30vh;
+    left: 35vh;
+}
