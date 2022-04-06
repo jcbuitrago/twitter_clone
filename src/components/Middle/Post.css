@@ -1,9 +1,7 @@
 .post {
     display: flex;
     align-items: flex-start;
-    border-bottom: 1px solid var(--twitter-background);
-    padding-bottom: 10px;
-    max-width: 550px;
+    width: fit-content;
 }
 
 .post__body {
@@ -12,8 +10,9 @@
 }
 
 .post_moreOption {
-    display: flex;
-    margin-left: 60%;
+    height: 20px;
+    padding: 20px;
+    margin-left: 60vh;
 }
 
 .post__body > img {
@@ -31,6 +30,7 @@
 .post__footer {
     display: flex;
     justify-content: space-between;
+    height: 30px;
     margin-top: 20px;
     margin-bottom: 10px;
     max-width: 80%;
@@ -38,7 +38,7 @@
 
 .post__options:hover {
     cursor: pointer;
-    color: var(--twitter-color);
+    filter: invert(62%) sepia(33%) saturate(7190%) hue-rotate(179deg) brightness(95%) contrast(97%);
 }
 
 .post__headerDescription {
@@ -47,8 +47,15 @@
 }
 
 .post__headerText {
+    display: flex;
+    justify-content: space-between;
     font-size: 15px;
+}
+
+.post__headerTestMoreIcon {
+    height: 25px;
     margin-bottom: 5px;
+    cursor: pointer;
 }
 
 .post__badge {

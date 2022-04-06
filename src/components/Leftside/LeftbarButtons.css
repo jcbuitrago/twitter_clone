@@ -1,4 +1,4 @@
-.leftbarOption {
+.leftbarButtons {
     display: flex;
     align-items: center;
     cursor: pointer;
@@ -6,7 +6,7 @@
 }
 
 
-.leftbarOption:hover {
+.leftbarButtons:hover {
     background-color: #e8f5fe;
     border-radius: 30px;
     color: var(--twitter-color);
@@ -17,7 +17,7 @@
     color: var(--twitter-color);
 }
 
-.leftbarOption > h2 {
+.leftbarButtons > h2 {
     font-weight: 800;
     font-size: 20px;
     margin-right: 20px;

@@ -21,8 +21,8 @@ function Tweetbox() {
                 <SentimentSatisfiedAltIcon className='tweetBox_optionsIcon'/>
                 <EventNoteIcon className='tweetBox_optionsIcon'/>
                 <AddLocationIcon className='tweetBox_optionsIcon'/>
-                <button className='tweetBox__tweetButton'>Tweet</button>
               </div>
+              <button className='tweetBox__tweetButton'>Tweet</button>
             </div>
         </form>
     </div>

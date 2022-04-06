@@ -1,0 +1,46 @@
+.news {
+    min-width: fit-content;
+    display: flex;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.news:hover {
+    cursor: pointer;
+    background-color: #d1d1d1;
+    border-radius: 20px;
+}
+
+.news__content {
+    display: block;
+    margin-left: 10px;
+    font-weight: 700;
+    font-size: 15px;
+    /* color: gray; */
+}
+
+.news__content > h2 {
+    margin-left: 0px;
+    font-size: 12px;
+    font-weight: 700;
+    /* display:flex; */
+    color: grey;
+    padding: 2px;
+    margin-bottom: 0px;
+}
+
+.news > img {
+    height: 60px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 5%;
+    margin-right: 10px; 
+}
+
+/* .news__image {
+    height: 70px;
+    margin-top: 0px;
+    margin-bottom: 3%;
+    margin-left: 5%;
+    margin-right: 10px;
+} */

@@ -1,7 +1,7 @@
 import React from "react";
-import Leftbar from "./Leftbar.js";
-import Middlebar from "./Middlebar.js";
-import Rightbar from "./Rightbar.js";
+import Leftbar from "./Leftside/Leftbar.js";
+import Middlebar from "./Middle/Middlebar.js";
+import Rightbar from "./Rightside/Rightbar.js";
 import './Main.css';
 
 
