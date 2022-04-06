@@ -1,5 +1,5 @@
 import React from 'react';
-import "./Rightbar.css";
+import "./Bottombar.css";
 import SearchIcon from "@material-ui/icons/Search";
 import News from "./News.js";
 import Lecrec from "./images/Leclerc.jpg";
@@ -32,12 +32,12 @@ function Rightbar() {
     )
 
   return (
-    <div className='rightbar'>
-        <div className='rightbar__input'>
-          <SearchIcon className='rightbar__searchIcon' />
+    <div className='bottombar'>
+        <div className='bottombar__input'>
+          <SearchIcon className='bottombar__searchIcon' />
           <input placeholder='Search Twitter' type="text" />
         </div>
-        <div className='rightbar__widgetContainer'>
+        <div className='bottombar__widgetContainer'>
           <h2>What's happening</h2>
           {renderOptions(newsBar)}
         </div>

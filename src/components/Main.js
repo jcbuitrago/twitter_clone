@@ -1,16 +1,16 @@
 import React from "react";
-import Leftbar from "./Leftside/Leftbar.js";
+import Topbar from "./Top/Topbar.js";
 import Middlebar from "./Middle/Middlebar.js";
-import Rightbar from "./Rightside/Rightbar.js";
+import Bottombar from "./Bottom/Bottombar.js";
 import './Main.css';
 
 
 function Main() {
   return (
     <div className="main">
-      <Leftbar />
+      <Topbar />
       <Middlebar />
-      <Rightbar />
+      <Bottombar />
     </div>
   );
 }

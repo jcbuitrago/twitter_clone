@@ -1,11 +1,11 @@
-.rightbar {
+.bottombar {
     width: auto;
     display: flex;
     max-height: 20vh;
     max-width: 100%;
 }
 
-.rightbar__input {
+.bottombar__input {
     display: flex;
     align-content: center;
     background-color: rgb(223, 223, 223);
@@ -17,19 +17,19 @@
     max-height: 50px;
 }
 
-.rightbar__input > input {
+.bottombar__input > input {
     border: none;
     margin-left: 10px;
     background-color: rgb(223, 223, 223);
 }
 
-.rightbar__searchIcon {
+.bottombar__searchIcon {
     color: black;
     margin-top: 12px;
     margin-left: 15px;
 }
 
-.rightbar__widgetContainer {
+.bottombar__widgetContainer {
     display: flex;
     margin-top: 10px;
     margin-left: 20px;
@@ -42,11 +42,11 @@
     max-height: 80px;
 }   
 
-.rightbar__widgetContainer::-webkit-scrollbar {
+.bottombar__widgetContainer::-webkit-scrollbar {
     display: none;
 }
 
-.rightbar__widgetContainer > h2 {
+.bottombar__widgetContainer > h2 {
     margin-right: 10px;
     font-size: 18px;
     font-weight: 800;

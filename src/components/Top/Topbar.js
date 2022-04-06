@@ -1,10 +1,10 @@
 import React from "react";
 import './Leftbar.css';
 
-import LeftbarButtons from "./LeftbarOption";
+import LeftbarButtons from "./LeftbarButtons";
 
 
-function Leftbar() {
+function Topbar() {
 
     const optionsBar=[
       {
@@ -49,4 +49,4 @@ function Leftbar() {
   }
   
 
-export default Leftbar;
+export default Topbar;
