@@ -1,17 +1,14 @@
 .signup {
-    display:flex;
+    display:block;
+}
+
+.signup__top {
+    display: flex;
 }
 
 .signup__image > img {
-    height: 100vh;
+    height: 97vh;
     width: 120vh;
-    align-items: flex-start;
-}
-
-.signup__image {
-    position: relative;
-    display: inline-block; /* <= shrinks container to image size */
-    transition: transform 150ms ease-in-out;
 }
    
 .signup__image svg {
@@ -28,7 +25,6 @@
     position: relative;
     top: 20vh;
     left: 20vh;
-    width: 350px;
 }
 
 .signup__menu svg {
@@ -48,13 +44,21 @@
     border: none;
     color: white ;
     font-weight: 900 ;
-    text-transform: inherit ;
     border-radius: 30px;
     height: 40px;
     width: 100vh;
     max-width: 350px;
+    cursor: pointer;
 }
 
-.signup__menu button:hover {
-    cursor: pointer;
+.signup__bottom {
+    margin-left: 60px;
+    display: flex;
+    max-height: 5vh;
+    width: 110%;
+    justify-content: space-between;
+}
+
+.signup__bottom > span {
+    font-size: 10px;
 }
