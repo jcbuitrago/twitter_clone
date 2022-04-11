@@ -1,17 +1,14 @@
 .login {
-    display:flex;
+    display:block;
+}
+
+.login__top {
+    display: flex;
 }
 
 .login__image > img {
-    padding: 0px;
-    height: 100vh;
+    height: 97vh;
     width: 120vh;
-}
-
-.login__image {
-    position: relative;
-    display: inline-block; /* <= shrinks container to image size */
-    transition: transform 150ms ease-in-out;
 }
    
 .login__image svg {
@@ -46,18 +43,26 @@
     border: none;
     color: white ;
     font-weight: 900 ;
-    text-transform: inherit ;
     border-radius: 30px;
     height: 40px;
     width: 100vh;
     max-width: 300px;
-}
-
-.login__menu button:hover {
     cursor: pointer;
 }
 
 .login__menuOptions {
     display: flex;
     justify-content: space-between;
+}
+
+.login__bottom {
+    margin-left: 60px;
+    display: flex;
+    max-height: 5vh;
+    width: 115%;
+    justify-content: space-between;
+}
+
+.login__bottom > span {
+    font-size: 10px;
 }
