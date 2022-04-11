@@ -1,0 +1,32 @@
+.news {
+    min-width: fit-content;
+    display: flex;
+}
+
+.news:hover {
+    cursor: pointer;
+    background-color: #d1d1d1;
+    border-radius: 20px;
+}
+
+.news__content {
+    display: block;
+    margin-left: 10px;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.news__content > h2 {
+    font-size: 12px;
+    font-weight: 700;
+    color: grey;
+    padding: 2px;
+}
+
+.news > img {
+    height: 60px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 5%;
+    margin-right: 10px; 
+}

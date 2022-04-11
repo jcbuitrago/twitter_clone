@@ -3,9 +3,9 @@
 }
 
 .login__image > img {
+    padding: 0px;
     height: 100vh;
     width: 120vh;
-    align-items: flex-start;
 }
 
 .login__image {

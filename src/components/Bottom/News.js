@@ -8,13 +8,11 @@ function News({
 }) {
   return (
     <div className='news'>
-        <div className='news__header'>
-            {categoria}
-        </div>
         <div className='news__content'>
+            <h2>{categoria}</h2>
             {text}
-            <img src={image} className="news__image"/>
-        </div>
+        </div>            
+        <img src={image}/>
     </div>
   );
 }

@@ -1,10 +1,9 @@
-import React from "react";
-import Login from "./components/Login.js";
+import React, { useEffect, useState } from "react";
+import Login from "./components/Login/Login.js";
 import Mainpage from "./components/Main.js";
-import Signup from "./components/Signup.js";
+import Signup from "./components/Signup/Signup.js";
 import './App.css';
-import { Route, Link, Routes } from 'react-router-dom';
-
+import { Route, Link, Routes, Navigate } from 'react-router-dom';
 
 
 function App() {

@@ -1,0 +1,20 @@
+.middlebar {
+    display: flex;
+    margin-top: 2%;
+}
+
+.middlebar__header > h2 {
+    margin-bottom: 30%;
+    font-size: 30px;
+    font-weight: 800;
+    margin-left: 33%;
+}
+
+.middlebar__header {
+    padding-top: 50px;
+}
+
+.middlebar__posts {
+    display: flex;
+    overflow-x: scroll;
+}
