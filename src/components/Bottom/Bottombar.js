@@ -1,6 +1,5 @@
 import React from 'react';
 import "./Bottombar.css";
-import SearchIcon from "@material-ui/icons/Search";
 import {BiSearchAlt} from "react-icons/bi";
 import News from "./News.js";
 import Lecrec from "./images/Leclerc.jpg";

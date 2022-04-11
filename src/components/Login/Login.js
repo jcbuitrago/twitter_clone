@@ -2,7 +2,6 @@ import React from 'react';
 import {NavLink} from "react-router-dom";
 import "./Login.css";
 import Twitterbackground from "./images/twitter_background.png";
-import Twitterlogo from "@material-ui/icons/Twitter";
 
 
 function Login() {
