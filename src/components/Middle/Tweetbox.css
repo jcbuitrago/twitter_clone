@@ -5,54 +5,50 @@
     position: static;
     border-radius: 20px;
     max-height: 350px;
-    margin-top: 3%;
     width: 250px;
 }
 
-.tweetBox > form {
-    display: flex;
-    flex-direction: column;
-}
 
 .tweetBox__input {
-    padding: 20px;
-    display:flex;
+    width: fit-content;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .tweetBox__input > input {
-    flex: 1;
-    margin-left: 20px;
-    font-size: 20;
+    text-align: center;
+    font-size: 14pt;
     border: none;
 }
 
-.tweetBox__avatar {
-    height: 50px;
-    width: 50px;
-    border-radius: 50%;
+.tweetBox__input > input:focus {
+    outline: none;
+}
+
+.tweetBox_options {
+    margin-bottom: 5%;
+    max-width: 85%;
+    margin-left: 9%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.tweetBox_optionsIcon:hover {
+    color: var(--twitter-color);
+    cursor: pointer;
 }
 
 .tweetBox__tweetButton {
     background-color: var(--twitter-color);
     border: none;
     color: white ;
-    font-weight: 900 ;
+    font-weight: 900;
+    font-size: 15px;
     border-radius: 30px;
-    height: 40px;
+    height: 50px;
     margin-left: 2%;
     width: 100%;
     cursor: pointer;
-}
-
-.tweetBox_options {
-    margin-top: 20%;
-    height: 40px;
-    margin-left: 5%;
-    display: flex;
-    justify-content: space-between;
-    cursor: pointer;
-}
-
-.tweetBox_optionsIcon:hover {
-    color: var(--twitter-color);
 }

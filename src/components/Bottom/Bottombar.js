@@ -1,6 +1,7 @@
 import React from 'react';
 import "./Bottombar.css";
 import SearchIcon from "@material-ui/icons/Search";
+import {BiSearchAlt} from "react-icons/bi";
 import News from "./News.js";
 import Lecrec from "./images/Leclerc.jpg";
 import Fico from "./images/ficopetro.jpg";
@@ -27,21 +28,20 @@ function Rightbar() {
   ]
 
   const renderOptions = (newsBar) =>
-    newsBar.map((option, index)=>
+    newsBar.map((option)=>
       <News categoria={option.categoria} text={option.text} image={option.image} />
     )
 
   return (
     <div className='bottombar'>
         <div className='bottombar__input'>
-          <SearchIcon className='bottombar__searchIcon' />
-          <input placeholder='Search Twitter' type="text" />
+          <BiSearchAlt className='bottombar__searchIcon' size="30"/>
+          <input placeholder='Search Twitter' />
         </div>
         <div className='bottombar__widgetContainer'>
           <h2>What's happening</h2>
           {renderOptions(newsBar)}
-        </div>
-        
+        </div>        
     </div>
   );
 }

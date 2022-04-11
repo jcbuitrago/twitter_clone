@@ -1,30 +1,29 @@
 import React from 'react';
 import "./Tweetbox.css";
-import ImageIcon from '@material-ui/icons/Image';
-import PollIcon from '@material-ui/icons/Poll';
-import SentimentSatisfiedAltIcon from '@material-ui/icons/SentimentSatisfiedAlt';
-import EventNoteIcon from '@material-ui/icons/EventNote';
-import AddLocationIcon from '@material-ui/icons/AddLocation';
+import { BsImageFill } from "react-icons/bs";
+import {AiOutlineGif} from "react-icons/ai";
+import {IoStatsChart} from "react-icons/io5";
+import {BiSmile} from "react-icons/bi";
+import {BsFillCalendarCheckFill} from "react-icons/bs";
+import {HiOutlineLocationMarker} from "react-icons/hi";
 
 function Tweetbox() {
   return (
     <div className='tweetBox'>
-        <form>
-            <div className="tweetBox__input">
-                <img className="tweetBox__avatar" src="https://kajabi-storefronts-production.global.ssl.fastly.net/kajabi-storefronts-production/themes/284832/settings_images/rLlCifhXRJiT0RoN2FjK_Logo_roundbackground_black.png" />
-                <input placeholder="What's happening?" />
-            </div>
-            <div>
-              <div className='tweetBox_options'>
-                <ImageIcon className='tweetBox_optionsIcon'/>
-                <PollIcon className='tweetBox_optionsIcon'/>
-                <SentimentSatisfiedAltIcon className='tweetBox_optionsIcon'/>
-                <EventNoteIcon className='tweetBox_optionsIcon'/>
-                <AddLocationIcon className='tweetBox_optionsIcon'/>
-              </div>
-              <button className='tweetBox__tweetButton'>Tweet</button>
-            </div>
-        </form>
+      <div className="tweetBox__input">
+          <input placeholder="What's happening?" />
+      </div>
+      <div>
+        <div className='tweetBox_options'>
+          <BsImageFill className='tweetBox_optionsIcon' size="20"/>
+          <AiOutlineGif className='tweetBox_optionsIcon' size="20"/>
+          <IoStatsChart className='tweetBox_optionsIcon'size="20"/>
+          <BiSmile className='tweetBox_optionsIcon' size="20"/>
+          <BsFillCalendarCheckFill className='tweetBox_optionsIcon' size="20"/>
+          <HiOutlineLocationMarker className='tweetBox_optionsIcon' size="20"/>
+        </div>
+        <button className='tweetBox__tweetButton'>Tweet</button>
+      </div>
     </div>
   );
 }

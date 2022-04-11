@@ -1,0 +1,26 @@
+.topbar {
+    min-width: 250px;
+    display: flex;
+    justify-content: space-between;
+    position: static;
+}
+
+.topbar__twitterIcon > svg {
+    filter: invert(62%) sepia(33%) saturate(7190%) hue-rotate(179deg) brightness(95%) contrast(97%);
+    height: 30px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.topbar__avatar {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    margin-top: 10px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.topbar__options {
+    display: flex;
+}

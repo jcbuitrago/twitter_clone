@@ -46,11 +46,11 @@ function Middlebar() {
   return (
     <div className='middlebar'>
         <div className='middlebar__header'>
-            <h2>Home</h2>
-        <Tweetbox />
+          <h2>Home</h2>
+          <Tweetbox />
         </div>
         <div className='middlebar__posts'>
-        {renderOptions(postInfo)}
+          {renderOptions(postInfo)}
         </div>
     </div>
   );

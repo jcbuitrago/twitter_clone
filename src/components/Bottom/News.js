@@ -12,7 +12,7 @@ function News({
             <h2>{categoria}</h2>
             {text}
         </div>            
-        <img src={image} className="news__image"/>
+        <img src={image}/>
     </div>
   );
 }
